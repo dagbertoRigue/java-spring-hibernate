@@ -8,10 +8,11 @@ http://www.oracle.com/technetwork/java/javase
 Dar preferência para a última versão LTS - Long Term Support.
 As versões intermediárias são descontinuadas rapidamente.
 
-Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT       http://www.oracle.com/technetwork/java/javame
-Java SE - Java Standard Edition - core - desktop e servidores       http://www.oracle.com/technetwork/java/javase
-Java EE - Java Enterprise Edition - aplicações corporativas       http://www.oracle.com/technetwork/java/javaee
-	
+Java ME - Java Micro Edition - dispositivos embarcados e móveis - IoT       http://www.oracle.com/technetwork/java/javame .
+
+Java SE - Java Standard Edition - core - desktop e servidores       http://www.oracle.com/technetwork/java/javase .
+
+Java EE - Java Enterprise Edition - aplicações corporativas       http://www.oracle.com/technetwork/java/javaee .
 
 Comece pelo Java SE !
 
