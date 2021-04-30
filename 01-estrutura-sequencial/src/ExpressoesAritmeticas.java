@@ -33,6 +33,10 @@ public class ExpressoesAritmeticas {
 		System.out.println("------------------------------------------------------------------------------------------");
 		System.out.println("Para concatenar vários elementos em um mesmo comando de escrita :");
 		System.out.println("Resultado = " + y + " metros");
+
+		System.out.println();
+		System.out.println("------------------------------------------------------------------------------------------");
+		System.out.println("teste");
 	}
 
 }
