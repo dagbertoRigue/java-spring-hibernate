@@ -28,15 +28,19 @@ public class ExpressoesAritmeticas {
 		System.out.printf("%.2f%n", y);
 		Locale.setDefault(Locale.US);
 		System.out.printf("%.2f%n", y);
-
+		
 		System.out.println();
 		System.out.println("------------------------------------------------------------------------------------------");
-		System.out.println("Para concatenar vários elementos em um mesmo comando de escrita :");
-		System.out.println("Resultado = " + y + " metros");
-
-		System.out.println();
-		System.out.println("------------------------------------------------------------------------------------------");
-		System.out.println("teste");
+		System.out.println("Expressões aritméticas.");
+		System.out.println("Exemplo 1");
+		int w, z;
+		w = 5;
+		z = 2 * w;
+		System.out.println(w);
+		System.out.println(z);
+		
+		System.out.println("Exemplo 2");
+		
 	}
 
 }
