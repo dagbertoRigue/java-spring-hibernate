@@ -39,8 +39,13 @@ public class ExpressoesAritmeticas {
 		System.out.println(w);
 		System.out.println(z);
 		
-		System.out.println("Exemplo 2");
-		
+		System.out.println("Exemplo 2 - Área do trapézio");
+		double b, B, h, area;
+		b = 6.0;
+		B = 8.0;
+		h = 5.0;
+		area = (b + B) / 2.0 *h;
+		System.out.printf("Área = %.2f %n", area);
 	}
 
 }
