@@ -1,11 +1,11 @@
 
-public class EstruturaCondicionalTern·ria {
+public class EstruturaCondicionalTern√°ria {
 
 	public static void main(String[] args) {
 		System.out.println("-----------------------------------------------------------------------------------------------------------------------");
-		System.out.println("Express„o condicional tern·ria È uma outra opÁ„o ao if-else quando se deseja decidir um VALOR com base em uma condiÁ„o.");
+		System.out.println("Express√£o condicional tern√°ria √© uma outra op√ß√£o ao if-else quando se deseja decidir um VALOR com base em uma condi√ß√£o.");
 		System.out.println("Sintaxe :");
-		System.out.println("(condiÁ„o) ? valor_se_verdadeiro : valor_se_falso");
+		System.out.println("(condi√ß√£o) ? valor_se_verdadeiro : valor_se_falso");
 		System.out.println();
 		
 		System.out.println("Exemplo com if-else:");
@@ -17,10 +17,13 @@ public class EstruturaCondicionalTern·ria {
 		else {
 			desconto = preco * 0.05;
 		}
+		System.out.println("Desconto : " + desconto);
 		
-		System.out.println("Exemplo com condicional tern·ria :");
+		System.out.println("Exemplo com condicional tern√°ria :");
 		double price = 34.5;
 		double discount = (price < 20) ? price * 0.1 : price * 0.05;
+
+		System.out.println("Desconto : " + discount);
 	}
 
 }
