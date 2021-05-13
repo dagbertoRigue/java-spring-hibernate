@@ -17,7 +17,5 @@ public class Retangulo {
 	public double Diagonal() {
 		double diagonal = Math.sqrt(a * a + b * b);
 		return diagonal;
-	}
-	
-	
+	}	
 }
