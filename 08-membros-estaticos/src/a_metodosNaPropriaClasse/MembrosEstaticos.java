@@ -27,8 +27,10 @@ import java.util.Scanner;
  *   PI value: 3.14
  *   
  *   Versão 1: métodos na própria classe do programa. 
- *     Nota: dentro de um método estático você não pode chamar membros de instância da mesma classe.
+ *     Nota1: dentro de um método estático você não pode chamar membros de instância da mesma classe.
+ *     Nota2: todos os métodos chamados devem ser static, pois a classe main é static.
  *   Versão 2: classe Calculator com membros de instância.
+ *     Nota1: não é necessário criar métodos static, porém é obrigatório instanciá-los no main.
  *   Versão 3: classe Calculator com método estático.
  *   
  * */
