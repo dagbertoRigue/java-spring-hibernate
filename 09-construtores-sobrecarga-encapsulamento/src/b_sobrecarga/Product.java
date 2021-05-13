@@ -1,21 +1,45 @@
 package b_sobrecarga;
 
 public class Product {
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 	
-	/*Declarando os construtores da classe : */
-	/*Construtor padrão*/
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	public int getQuantity() {
+		return quantity;
+	}
+
+	/*O atributo quantity não deve possuir o método set para esse exemplo.
+	 * Isso porque a quantidade do produto em estoque poderá ser alterada somente
+	 * pelos métodos de adição e remoção de itens do estoque, para proteger as 
+	 * regras do negócio do sistema.
+	 * */
+
 	public Product() {
 	}
-	/*Construtor com 3 atributos*/
+	
 	public Product(String name, double price, int quantity) {
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
 	}
-	/*Construtor com 2 atributos*/
+	
 	public Product(String name, double price) {
 		this.name = name;
 		this.price = price;
