@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Testando primeira aplicação!");
+		System.out.println("Testando Eclipse!");
 		
 	}
 
